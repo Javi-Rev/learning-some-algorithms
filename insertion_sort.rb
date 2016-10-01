@@ -13,7 +13,6 @@ class SortArray
       previous_element_index = index - 1
       while previous_element_index >= 0 and sort_array[previous_element_index] > element
         sort_array[previous_element_index + 1] = sort_array[previous_element_index]
-        #element = sort_array[previous_element_index]
         previous_element_index -= 1
       end
       sort_array[previous_element_index + 1] = element
@@ -21,7 +20,7 @@ class SortArray
   end
 end
 
-# Simple testsc to verify sort is sucessful
+# Simple tests to verify sort is sucessful
 
 class SortArrayTest < MiniTest::Test
   def test_output_matches_standard_sort_method
@@ -37,12 +36,12 @@ if MiniTest.run
 
   array = [49, 34, 56,34,2,5,3334,3534, 980, 829, 9]
   sort_array = SortArray.new(array)
-  cycles = 10_000_000
+  cycles = 20_000_000
 
   puts "Original unsorted array: #{array.join(', ')}"
   puts "Ruby sort method sorted array: #{array.sort.join(', ')}"
   puts "Insertion sorted array: #{sort_array.insertion_sort.join(', ')}"
-  puts "====================================================================="
+  puts "============================================================================"
   puts "Some benchmarks comparing algorithm performance:"
   puts "Ruby sort #{Benchmark.measure {array.sort*cycles}}"
   puts "Insertion #{Benchmark.measure {sort_array.insertion_sort*cycles}}"
