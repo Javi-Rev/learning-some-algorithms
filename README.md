@@ -9,11 +9,11 @@ Decided to spend Friday night like a bawss, so we're going to learn some basic a
 >- Insertion Sort
 - Divide and Conquer
 
-### **Todos**
+## **Todos**
 >- Write tests
 - Add more algorithms
 
    [Introduction to Algorithms]: <https://mitpress.mit.edu/books/introduction-algorithms>
 
-### **License**
+## **License**
 MIT
