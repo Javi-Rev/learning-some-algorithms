@@ -1,3 +1,5 @@
+![Logo](http://i.imgur.com/QNmRzAF.png)
+
 **Learning Algorithms**
 ===================
 
