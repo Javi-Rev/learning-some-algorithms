@@ -9,7 +9,7 @@ Decided to spend Friday night like a bawss, so we're going to learn some basic a
 
 ## **Weekend Goals**
 >- Insertion Sort
-- Divide and Conquer
+- Merge Sort
 
 ## **Todos**
 >- Write tests
